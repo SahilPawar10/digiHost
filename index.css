@@ -68,6 +68,10 @@ img {
   border: none;
 }
 
+.navbar-collapse.collapse.show .navbar-list {
+  text-align: center;
+}
+
 .navbar-list .nav-item .nav-link:hover {
   background: #0e786e;
   color: #fff;
@@ -125,7 +129,6 @@ header {
 /* .......section4......... */
 
 .course-grid {
-  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   gap: 1rem;
@@ -229,7 +232,6 @@ header {
 /* section 5 */
 
 .inst-grid {
-  max-width: 1200px;
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
@@ -291,7 +293,6 @@ header {
 }
 
 .blog-grid {
-  max-width: 1200px;
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
@@ -488,11 +489,11 @@ header {
 
 @media (min-width: 481px) and (max-width: 790px) {
   .section3 {
-    gap: 1rem;
-    padding: 15px;
+    display: grid;
+    gap: 30px;
   }
   .img-rating {
-    top: 160px;
+    top: 111px;
   }
   .course-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -510,9 +511,15 @@ header {
     /* margin-bottom: 30px; */
     font-size: 14px;
   }
+  .footer {
+    top: 305px;
+  }
 }
 
 @media (min-width: 791px) and (max-width: 1200px) {
+  .get-start {
+    height: 60px;
+  }
   .section3 {
     gap: 1rem;
     padding: 15px;
@@ -535,5 +542,12 @@ header {
   .footer-active {
     /* margin-bottom: 30px; */
     font-size: 14px;
+  }
+  .teacher-grid {
+    top: 100px;
+    left: 28px;
+  }
+  .footer {
+    top: 305px;
   }
 }
