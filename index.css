@@ -241,3 +241,82 @@ header {
   color: grey;
   font-size: 15px;
 }
+
+.section-6 {
+  margin: 100px 0;
+}
+
+.viewAll {
+  background: #0e786e;
+  color: white;
+  justify-content: center;
+  /* padding: 5px; */
+  margin: 10px 5px 5px 5px;
+  width: 170px;
+}
+
+.viewAll:hover {
+  background: #0e786e;
+  color: white;
+}
+
+.section-7 {
+  /* position: relative; */
+  margin: 200px 0 0 0;
+}
+.contact {
+  background: #0e786e;
+  border-radius: 20px;
+  margin: 50px 0;
+  position: relative;
+}
+
+.contact-text {
+  flex: 0 0 70%;
+  width: 70%;
+  margin: 30px;
+}
+
+.contact-img {
+  position: absolute;
+  top: -175px;
+  left: 950px;
+}
+
+.contact-text {
+  padding: 40px 25px;
+}
+
+.contact-text h2 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.contact-text p {
+  color: #fff;
+  /* font-weight: 600; */
+}
+
+.contact-search {
+  margin-top: 50px;
+  width: 400px;
+}
+
+.search-input {
+  border-radius: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 50px;
+}
+.contact-btn {
+  background: #ff6a30;
+  color: #fff;
+  border-radius: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 175px;
+}
+
+.contact-btn:hover {
+}
