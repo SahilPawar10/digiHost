@@ -55,6 +55,9 @@ img {
   opacity: 1;
 }
 
+.navbar2 {
+  /* display: none; */
+}
 .navbar,
 .banner {
   background: #edf8fa !important;
@@ -66,10 +69,6 @@ img {
   background: #0e786e !important;
   height: 45px;
   border: none;
-}
-
-.navbar-collapse.collapse.show .navbar-list {
-  text-align: center;
 }
 
 .navbar-list .nav-item .nav-link:hover {
@@ -513,6 +512,24 @@ header {
   }
   .footer {
     top: 305px;
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar2 {
+    display: inline;
+  }
+  .navbar-list {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .navbar-list .nav-item .nav-link:hover {
+    /* text-align: center; */
+    background-color: transparent;
+    color: black;
+    border-bottom: 2px solid #0e786e !important;
+    width: 100px;
   }
 }
 
