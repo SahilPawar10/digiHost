@@ -71,11 +71,13 @@ img {
   border: none;
 }
 
+.navbar-list .nav-item .nav-link {
+  transition: background 0.1s, border-radius 0.1s;
+}
 .navbar-list .nav-item .nav-link:hover {
   background: #0e786e;
   color: #fff;
   border-radius: 7px;
-  transition: all ease 0.2s;
 }
 
 .search-btn1 {
